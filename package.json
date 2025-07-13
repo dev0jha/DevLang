@@ -1,0 +1,36 @@
+{
+  "name": "devlang",
+  "version": "1.0.0",
+  "description": "A simple programming language with Hindi keywords for better accessibility",
+  "main": "devlang.js",
+  "bin": {
+    "devlang": "./devlang.js"
+  },
+  "scripts": {
+    "start": "node devlang.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "programming-language",
+    "compiler",
+    "interpreter",
+    "hindi",
+    "devlang"
+  ],
+  "author": "DevLang Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "devlang.js",
+    "tokenTypes.js",
+    "token.js",
+    "astNode.js",
+    "symbolTable.js",
+    "tokenizer.js",
+    "parser.js",
+    "interpreter.js",
+    "README.md"
+  ]
+}
