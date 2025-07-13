@@ -20,9 +20,13 @@ DevLang is a simple programming language that uses Hindi keywords for better acc
 
 ## Installation
 
-1. Clone or download the DevLang files
-2. Make sure you have Node.js installed (version 12+)
-3. Run programs using the command line
+1. Clone or download the DevLang file
+```bash
+git clone https://github.com/dev0jha/DevLang.git
+cd DevLang
+```
+3. Make sure you have Node.js installed (version 12+)
+4. Run programs using the command line
 
 ## Usage
 
