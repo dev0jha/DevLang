@@ -37,3 +37,39 @@ node devlang.js -e "code here"
 
 # Show tokens for debugging
 node devlang.js --tokens -f
+```
+### Examples
+```bash
+# Input
+x = 10;
+y = 20;
+z = x + y;
+bolo z;
+
+#Output
+30
+```
+```bash
+#Input
+naam = "Dev Hari Ojha";
+bolo naam;
+
+#Output
+Dev Hari Ojha
+```
+```bash
+#Input
+age = puchoo "Apni age batao";
+dekho(age >= 18) {
+    bolo "Aap adult ho";
+} nhi_toh {
+    bolo "Aap minor ho";
+}
+
+#Output
+Aap minor ho
+Aap adult ho
+
+
+
+
