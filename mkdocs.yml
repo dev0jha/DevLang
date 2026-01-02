@@ -1,0 +1,38 @@
+site_name: DevLang Documentation
+site_description: A JavaScript-based programming language with Hindi-inspired keywords
+site_author: DevLang Contributors
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - CLI Usage: cli-usage.md
+  - Syntax: syntax.md
+  - Keywords: keywords.md
+  - Examples: examples.md
+  - Internals: internals.md
+  - Contributing: contributing.md
+  - FAQ: faq.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
